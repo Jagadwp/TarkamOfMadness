@@ -1059,7 +1059,7 @@ const Game = () => {
                     ctx.font = "60px Arial";
                     ctx.fillStyle = "blue";
                     ctx.textAlign = "center";
-                    switch(clientBalls[p1ID].score){
+                    switch(clientBalls[p1ID].point){
                         case 0: 
                             ctx.fillStyle = "silver"
                             ctx.fillText("*", 30, 100)
@@ -1096,7 +1096,7 @@ const Game = () => {
                     ctx.font = "60px Arial";
                     ctx.fillStyle = "green";
                     ctx.textAlign = "center";
-                    switch(clientBalls[p2ID].score){
+                    switch(clientBalls[p2ID].point){
                         case 0: 
                             ctx.fillStyle = "silver"
                             ctx.fillText("*", 610, 100)

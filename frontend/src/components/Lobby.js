@@ -34,8 +34,10 @@ const Lobby = () => {
                         <div className="BigRedBall"></div>
                         <div className="HeaderCenter">
                             <p>
-                                <span className="HeaderTitle">&nbsp;&nbsp;CAPSULE SOCCER&nbsp;&nbsp;</span><br/> 
-                                <i>Score 3 times to get a point, get 3 points to win!</i>
+                                <b>Tarkam of Madness</b>
+                            </p>
+                            <p>
+                                <i>Get 3 points to win!</i>
                             </p>
                             <p>Ready For The Next Game, <b>{userData.user.name}</b>?</p>
                             <div className="HeaderLinks">

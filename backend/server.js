@@ -1177,7 +1177,7 @@ function gameLogic(room){
         roomData[room].gameWin = 0
         if(football[room].pos.x < 45){
             roomData[room].p2score++;
-            if(roomData[room].p2score === 3){
+            if(roomData[room].p2score === 1){
                 roomData[room].p2score = 0
                 roomData[room].p1score = 0
                 roomData[room].roundWin = 2
@@ -1197,7 +1197,7 @@ function gameLogic(room){
         }   
         if(football[room].pos.x > 595){
             roomData[room].p1score++;
-            if(roomData[room].p1score === 3){
+            if(roomData[room].p1score === 1){
                 roomData[room].p1score = 0
                 roomData[room].p2score = 0
                 roomData[room].roundWin = 1
