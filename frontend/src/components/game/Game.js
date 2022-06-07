@@ -978,7 +978,7 @@ const Game = () => {
                 clientBalls[data.p2ID].point = data.p2point
                 clientBalls[data.p2ID].msg = ""
                 football = new Ball(data.ballX, data.ballY, 20, 10);
-                football.color = "red";
+                football.color = "yellow";
                 if(gameReady === false){
                     gameReady = true
                     countDown()
