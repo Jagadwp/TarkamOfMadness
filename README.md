@@ -4,11 +4,11 @@ Tarkam of Madness is a web based multiplayer game. We were inspired from soccer 
 # Technologies
 This project uses the technology called MERN stack. This stands for MongoDB, Express, React, and Node.
 - MongoDB -> for document database
-- Express(.js) - Node.js web framework
-- React(.js) - a client-side JavaScript framework
-- Node(.js) - the premier JavaScript web server
+- Express(.js) -> Node.js web framework
+- React(.js) -> a client-side JavaScript framework
+- Node(.js) -> the premier JavaScript web server
 
-# Cara Installasi Tarkam of Madness
+# Tarkam of Madness Installation
 1. kasih .env<br>
 ```
 DB_URI=mongodb+srv://tarkamdb:tarkamdb123@cluster0.m1e8iam.mongodb.net/tarkamdbs?retryWrites=true&w=majority
