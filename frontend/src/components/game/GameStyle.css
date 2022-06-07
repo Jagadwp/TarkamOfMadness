@@ -1,4 +1,5 @@
 #canvas{
+    background-image: "url(/background.png)";
     background: #fffacc;
 }
 .InGameDiv{
@@ -27,7 +28,7 @@
     margin-bottom: 10px;
 }
 .QuitButton:hover{
-    background-color: black;
+    background-color: rgb(162, 0, 0);
 }
 .GameSetupContent, .GameOverContent{
     width: 640px;
@@ -42,7 +43,7 @@
     left: 0;
     right: 0;
     border: 1px solid black;
-    background: #fffacc;
+    background: #ebebeb;
 }
 .ButtonSection{
     display: flex;
@@ -52,26 +53,26 @@
     width: 80%;
 }
 .LobbyButton{
-    background-color: darkkhaki;
-    border-color: darkolivegreen;
+    background-color: #F42424;
+    border-color: rgb(25, 25, 25);
     height: 50px;
     width: 120px;
     border-radius: 25px;
 }
 .LobbyButton:hover{
-    background-color: darkolivegreen;
-    border-color: darkolivegreen;
+    background-color: #790c0c;
+    border-color: rgb(30, 30, 30);
 }
 .PlayButton{
-    background-color: red;
-    border-color: palevioletred;
+    background-color: #10DA3C;
+    border-color: rgb(39, 39, 39);
     height: 50px;
     width: 120px;
     border-radius: 25px;
 }
 .PlayButton:hover{
-    background-color: rgb(255, 0, 191);
-    border-color: rgb(255, 166, 0);
+    background-color: #0c8827;
+    border-color: rgb(29, 29, 29);
 }
 .WinnerName{
     font-family: Arial, Helvetica, sans-serif;

@@ -1,19 +1,38 @@
 /* *{
     border: 1px solid black;
 } */
+.bg{
+    
+    border: 1px solid black;
+    
+    border-radius: 5px;
+    padding: 0;
+    margin: auto;
+    display: block;
 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
 .MainScreen{
+    background-image: "url(/background.png)";
     height: 100vh;
     max-height: 100%;
+    
+    
 }
 
+
+
 .Header{
-    border: 1px solid black;
     padding: 1%;
-    text-align: center;
+    text-align: right;
     margin: 2px;
     border-radius: 100px;
-    background-color: #fffacc;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,16 +44,15 @@
     padding: 5px;
     margin: 5px;
     font-weight: bolder;
-    background-image: linear-gradient(to right, lightblue , lightgreen);
+    
 }
 
 .BigRedBall{
-    background: red;
-    border-radius: 50%;
-    height: 80px;
-    width: 80px;
+    border-radius: 5%;
+    height: 112px;
+    width: 60px;
     margin: 0;
-    border: 1px solid red;
+
 }
 
 .HeaderCenter{
@@ -44,20 +62,33 @@
 
 .HeaderLinks{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .StatButton{
-    background-color: darkkhaki;
-    border-color: darkolivegreen;
+    background-color: #10DA3C;
+    border-color: black;
+    margin-right: 20px;
+    height: 40px;
+    width: 110px;
+    border-radius: 50px;
+    font-size: large;
+    font-weight: bold;
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
+
 }
 
 .StatButton:hover, .StatBackButton:hover{
-    background-color: darkolivegreen;
-    border-color: darkolivegreen;
+    background-color: rgb(0, 119, 0);
+    border-color: rgb(35, 35, 35);
 }
 
 .StatContent{
+    background-image: "url(/background.png)";
     width: 640px;
     height: 480px;
     text-align: center;
@@ -70,12 +101,12 @@
     left: 0;
     right: 0;
     border: 1px solid black;
-    background: #fffacc;
+    background: #f5f5f5;
 }
 
 .StatBackButton{
-    background-color: darkkhaki;
-    border-color: darkolivegreen;
+    background-color: rgb(14, 137, 0);
+    border-color: rgb(31, 32, 31);
     margin: 0 auto;
     position: absolute;
     bottom: 30px;
@@ -87,12 +118,22 @@
 }
 
 .LogOutButton{
-    background-color: darkgrey;
+    background-color: #F42424;
     border-color: black;
+    height: 40px;
+    width: 110px;
+    border-radius: 50px;
+    font-size: large;
+    font-weight: bold;
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
 }
 
 .LogOutButton:hover{
-    background-color: black;
+    background-color: rgb(152, 24, 24);
     border-color: black;
 }
 
@@ -100,8 +141,8 @@
     border: 1px solid black;
     padding: 4%; 
     margin: 2px; 
-    background-color: lightblue;
-    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 30px;
 }
 
 .ChatHeader{
@@ -123,8 +164,8 @@
     border: 1px solid black;
     padding: 4%; 
     margin: 2px;  
-    background-color: lightgreen;
-    border-radius: 10px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 30px;
 }
 
 .PoolComponent{
@@ -147,7 +188,7 @@
 
 .PoolElem{
     background-color: #fcfcfc;
-    border: 1px solid darkolivegreen;
+    border: 1px solid rgb(49, 49, 49);
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -158,7 +199,7 @@
 
 .Disabled{
     background-color: #e7abab;
-    border: 1px solid darkolivegreen;
+    border: 1px solid rgb(48, 48, 48);
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -181,10 +222,10 @@
 }
 
 .Footer{
-    border: 1px solid black;
+
     text-align: center;  
     margin: 2px; 
-    background-color: #fffacc;
+    color: white;
     padding-top: 15px;
     border-radius: 10px;
     display: block;
@@ -192,6 +233,13 @@
     bottom: 0;
     left: 0;
     right: 0;
+    font-size: large;
+    font-weight: bold;
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
 }
 
 /* width */

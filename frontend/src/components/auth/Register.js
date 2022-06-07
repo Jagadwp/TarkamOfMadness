@@ -67,18 +67,21 @@ const Register = () => {
     <div className="RegisterComponent">
       <form className="RegisterForm" onSubmit={handleSubmit}>
         <label>Username:&nbsp; </label>
+        <br />
         <input type="text" name="name" value={user.name}
           required onChange={handleChange} />
         <br />
         <label>Password:&nbsp; </label>
+        <br />
         <input type="password" name="password"  value={user.password}
           onChange={handleChange} />
         <br />
         <label>Password Again:&nbsp; </label>
+        <br />
         <input type="password" name="passwordAgain" value={user.passwordAgain}
           onChange={handleChange} />
         <br />
-        <Button className="RegisterBtn" variant="success" type="submit">Reg!</Button>
+        <Button className="RegisterBtn" variant="success" type="submit">Register</Button>
       </form>
       {errorMsg && <ErrorMsg msg={errorMsg} />}
     </div>

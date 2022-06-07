@@ -9,14 +9,14 @@ const Auth = () => {
     const [login, setLogin] = useState(true);
 
     return (
-        <div className="AuthBox">
+        <div className="AuthBox" style={{ backgroundImage: "url(/background.png)" }}>
             <Container>
                 <Button className="LoginLink" onClick={() => setLogin(true)}>Login</Button> 
                 <Button className="RegisterLink" onClick={() => setLogin(false)}>Register</Button>
                 
                 {login ? 
                     <div>
-                        <div className="LoginMsg">
+                        <div className="LoginMsg" >                                                                                
                             <p><b>WELCOME BACK</b> if you have been here before!</p>
                             <p>If not, then quickly&nbsp;<span className="RegSpan" onClick={() => setLogin(false)}>&nbsp;Register&nbsp;</span>&nbsp;please!</p>
                         </div>

@@ -966,14 +966,14 @@ const Game = () => {
                 clientBalls[data.p1ID] = new Capsule(data.p1X+35, data.p1Y, data.p1X-35, data.p1Y, 25, 10);
                 clientBalls[data.p1ID].no = 1;
                 clientBalls[data.p1ID].name = data.p1name;
-                clientBalls[data.p1ID].color = "lightblue";
+                clientBalls[data.p1ID].color = "blue";
                 clientBalls[data.p1ID].score = data.p1score
                 clientBalls[data.p1ID].point = data.p1point
                 clientBalls[data.p1ID].msg = ""
                 clientBalls[data.p2ID] = new Capsule(data.p2X+35, data.p2Y, data.p2X-35, data.p2Y, 25, 10);
                 clientBalls[data.p2ID].no = 2;
                 clientBalls[data.p2ID].name = data.p2name;
-                clientBalls[data.p2ID].color = "lightgreen";
+                clientBalls[data.p2ID].color = "green";
                 clientBalls[data.p2ID].score = data.p2score
                 clientBalls[data.p2ID].point = data.p2point
                 clientBalls[data.p2ID].msg = ""
@@ -1201,7 +1201,7 @@ const Game = () => {
     return (
         <div>
             <div className="InGameDiv">
-                <canvas id="canvas" ref={canvasRef} tabindex="0" width={640} height={480} /> 
+                <canvas id="canvas"  style={{ backgroundImage: "url(/bgw.png)" }} ref={canvasRef} tabindex="0" width={640} height={480} /> 
                 <div className="GameFooter">
                     <form id="gamemsg" onSubmit={newMessageSubmit}>
                         <input type="text" name="msg" 
