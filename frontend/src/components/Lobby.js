@@ -27,7 +27,7 @@ const Lobby = () => {
       }
 
     return (
-        <div className="bg" style={{ backgroundImage: "url(/background.png)", backgroundRepeat:"no-repeat", height:800,width:1700}}>
+        <div className="bg" style={{ backgroundImage: "url(/background.png)", backgroundRepeat:"no-repeat", height:740,width:1540}}>
             <Container className="MainScreen">
                 <Row>
                     <Col>

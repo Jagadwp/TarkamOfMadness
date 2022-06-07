@@ -16,7 +16,7 @@
 
 .AuthBox{
     background-image: "url(/background.png)";
-    border: 1px solid black;
+
 
     border-radius: 5px;
     padding: 0;
@@ -32,7 +32,7 @@
 }
 
 .LoginLink{
-    background-color: lightblue;
+    background-color: #F4C724;
     color: black;
     border-color: black;
     padding: 10px;
@@ -47,7 +47,7 @@
 }
 
 .RegisterLink{
-    background-color: lightgreen;
+    background-color: #F4C724;
     color: black;
     border-color: black;
     padding: 10px;
@@ -62,7 +62,7 @@
 }
 
 .LoginMsg, .RegisterMsg{
-    border: 1px solid black;
+
     border-radius: 10px;
     margin-left: 10%;
     margin-right: 10%;
@@ -121,7 +121,8 @@
 }
 
 .RegSpan{
-    background-color: lightgreen;
+    background-color: #F4C724;
+    border-color: black;
     border-radius: 15px;
     padding: 3px;
     cursor: pointer;
