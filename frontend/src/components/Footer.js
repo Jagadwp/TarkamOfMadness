@@ -7,7 +7,7 @@ import "./Lobby.css"
 const Footer = () => {
     return (
         <div className="Footer">
-            <h6>FP Progjar &nbsp;&nbsp;&nbsp;&nbsp;
+            <h6>Network Programming FP &nbsp;&nbsp;&nbsp;&nbsp;
                 {/* <a href={"https://github.com/danielszabo88/CapsuleSoccerApp"} target="_blank"><img src={github} style={{width:"28px", height:"28px"}}/></a> */}
             </h6>
             {/* <h6>Physics Engine Tutorial &nbsp;&nbsp;-&nbsp;&nbsp;
