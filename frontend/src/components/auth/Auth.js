@@ -17,7 +17,7 @@ const Auth = () => {
                 {login ? 
                     <div>
                         <div className="LoginMsg">
-                            <p><b>WELCOME BACK</b> if you have been here before sadsfafwfaw!</p>
+                            <p><b>WELCOME BACK</b> if you have been here before!</p>
                             <p>If not, then quickly&nbsp;<span className="RegSpan" onClick={() => setLogin(false)}>&nbsp;Register&nbsp;</span>&nbsp;please!</p>
                         </div>
                         <Login /> 
