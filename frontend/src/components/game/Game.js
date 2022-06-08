@@ -980,8 +980,8 @@ const Game = () => {
                 clientBalls[data.p2ID].point = data.p2point
                 clientBalls[data.p2ID].msg = ""
                 football = new Ball(data.ballX, data.ballY, 20, 10);
-                football.color = "red";
-                if (gameReady === false) {
+                football.color = "yellow";
+                if(gameReady === false){
                     gameReady = true
                     countDown()
                 }
@@ -1210,43 +1210,21 @@ const Game = () => {
         }
     }
 
-    return ( <
-        div >
-        <
-        div className = "InGameDiv" >
-        <
-        canvas id = "canvas"
-        ref = { canvasRef }
-        tabindex = "0"
-        width = { 640 }
-        height = { 480 }
-        />  <
-        div className = "GameFooter" >
-        <
-        form id = "gamemsg"
-        onSubmit = { newMessageSubmit } >
-        <
-        input type = "text"
-        name = "msg"
-        value = { chatMessage }
-        placeholder = "Send a Message!"
-        onChange = { handleChange }
-        required style = {
-            { width: "80%" }
-        }
-        /> <
-        input type = "submit"
-        value = "Message!"
-        style = {
-            { width: "20%" }
-        }
-        /> < /
-        form > <
-        Button className = "QuitButton"
-        onClick = { quitGame } > QUIT GAME < /Button> < /
-        div > <
-        /div> < /
-        div >
+    return (
+        <div>
+            <div className="InGameDiv">
+                <canvas id="canvas"  style={{ backgroundImage: "url(/bgw.png)" }} ref={canvasRef} tabindex="0" width={640} height={480} /> 
+                <div className="GameFooter">
+                    <form id="gamemsg" onSubmit={newMessageSubmit}>
+                        <input type="text" name="msg" 
+                            value={chatMessage} placeholder="Send a Message!"
+                            onChange={handleChange} required style={{ width: "80%" }} />
+                        <input type="submit" value="Message!" style={{ width: "20%" }}/>
+                    </form>
+                    <Button className="QuitButton" onClick={quitGame}>QUIT GAME</Button>
+                </div>           
+            </div>
+        </div>
     )
 }
 
