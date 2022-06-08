@@ -980,13 +980,8 @@ const Game = () => {
                 clientBalls[data.p2ID].point = data.p2point
                 clientBalls[data.p2ID].msg = ""
                 football = new Ball(data.ballX, data.ballY, 20, 10);
-<<<<<<< HEAD
-                football.color = "yellow";
-                if(gameReady === false){
-=======
                 football.color = "red";
                 if (gameReady === false) {
->>>>>>> 61d5b45f2913cf552d576e77207e633565c6a9da
                     gameReady = true
                     countDown()
                 }
@@ -1215,23 +1210,6 @@ const Game = () => {
         }
     }
 
-<<<<<<< HEAD
-    return (
-        <div>
-            <div className="InGameDiv">
-                <canvas id="canvas"  style={{ backgroundImage: "url(/bgw.png)" }} ref={canvasRef} tabindex="0" width={640} height={480} /> 
-                <div className="GameFooter">
-                    <form id="gamemsg" onSubmit={newMessageSubmit}>
-                        <input type="text" name="msg" 
-                            value={chatMessage} placeholder="Send a Message!"
-                            onChange={handleChange} required style={{ width: "80%" }} />
-                        <input type="submit" value="Message!" style={{ width: "20%" }}/>
-                    </form>
-                    <Button className="QuitButton" onClick={quitGame}>QUIT GAME</Button>
-                </div>           
-            </div>
-        </div>
-=======
     return ( <
         div >
         <
@@ -1269,7 +1247,6 @@ const Game = () => {
         div > <
         /div> < /
         div >
->>>>>>> 61d5b45f2913cf552d576e77207e633565c6a9da
     )
 }
 
