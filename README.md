@@ -9,21 +9,24 @@ This project uses the technology called MERN stack. This stands for MongoDB, Exp
 - Node(.js) -> the premier JavaScript web server
 
 # Tarkam of Madness Installation
-1. add .env<br>
+1. add .env (example)<br>
 ```
-DB_URI=mongodb+srv://tarkamdb:tarkamdb123@cluster0.m1e8iam.mongodb.net/tarkamdbs?retryWrites=true&w=majority
+DB_URI=mongodb+srv://<user>:<password>@cluster0.m1e8iam.mongodb.net/<db_name>?retryWrites=true&w=majority
 PORT=5000
-JWT_SECRET=secret123
+JWT_SECRET=secret132
 ```
 2. npm install && npm --prefix frontend install<br>
 3. npm run build --prefix frontend <br>
 3. npm run dev<br>
 
 # Member's Name
-Muhammad Arifiansyah		05111940000027 <br>
-A. Zidan Abdillah Majid		05111940000070 <br>
-Jagad Wijaya Purnomo		05111940000132 <br>
-Riki Wahyu Nur Dianto		05111940000188 <br>
+Muhammad Arifiansyah - 05111940000027 <br>
+A. Zidan Abdillah Majid - 05111940000070 <br>
+Jagad Wijaya Purnomo - 05111940000132 <br>
+Riki Wahyu Nur Dianto - 05111940000188 <br>
 
 # Link
+http://tarkam-of-madness.herokuapp.com/<br> 
+or <br>
 https://tarkam-of-madness-game.herokuapp.com/
+
